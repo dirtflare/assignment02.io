@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript課題</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+<header>
+    <h1>
+        <div class="logo">
+
+        </div>
+        <a href="/">G'S ACADEMY</a>
+    </h1>
+    <nav class="pc-nav">
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<main>LAB7</main>
+
+
+<div class="title_section">
+    <div id="start" style="text-align: center;">
+        <br> <br>
+        <div class="main">
+            <p class="fuchidori">JANKEN&QUIZ</p>
+        </div>
+        <br> <br>
+        <!-- <button onclick="gameStart()">じゃんけんゲーム</button> -->
+        <button onclick="gameStart()"><a href="#">JANKEN</a></button>
+    </div>
+    
+    <div id="start2" style="text-align: center;">
+        <br> <br>
+        <!-- <h1>02.JavaScript課題</h1> -->
+        <br> <br>
+        <button onclick="gameStart()"><a href="#">QUIZ</a></button>
+    </div>
+</div>
+<!-- 
+    <div id="game" style="text-align: center; display: none">
+        <br> <br>
+        <h1>ゲーム画面</h1>
+        <br> <br>
+        <input type="text" id="cnt_txt">
+    </div>
+
+    <div id="over" style="text-align: center; display: none">
+        <br> <br>
+        <h1>ゲームオーバー画面</h1>
+        <br> <br>
+        ゲームは終わりました。
+    </div> -->
+    <html>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/css/jquery.mb.YTPlayer.min.css">
+    <!-- <h1>jquery.mb.YTPlayer Sample</h1> -->
+    <div id="ytPlayer" data-property="{
+      videoURL: 'https://www.youtube.com/watch?v=IZY-Ec9ysCo&list=PL5POt7v8GG2Xehz7FrdTODu90qocBZ7R2&index=32',
+      autoPlay: true,
+      loop: 1,
+      mute: true,
+      showControls: false,
+      showYTLogo: false,
+    }">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/jquery.mb.YTPlayer.min.js"></script>
+        <script>
+            $(function () {
+                $("#ytPlayer").YTPlayer();
+            });
+        </script>
+    
+    </html>
+
+
+</body>
+</html>
